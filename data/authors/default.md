@@ -1,16 +1,30 @@
 ---
-name: Tails Azimuth
-avatar: /static/images/avatar.png
-occupation: Professor of Atmospheric Science
-company: Stanford University
-email: address@yoursite.com
+name: Fortan Pireva
+avatar: /static/images/profile-pic.png
+occupation: Self-Employed Software Engineer
+company: Slinggy Apps
+email: info@slinggyapps.com
 twitter: https://twitter.com/Twitter
 linkedin: https://www.linkedin.com
 github: https://github.com
 ---
 
-Tails Azimuth is a professor of atmospheric sciences at the Stanford AI Lab. His research interests includes complexity modelling of tailwinds, headwinds and crosswinds.
+Hi I am Fortan Pireva, a passionate software engineer with a degree in computer engineering
 
-He leads the clean energy group which develops 3D air pollution-climate models, writes differential equation solvers, and manufactures titanium plated air ballons. In his free time he bakes raspberry pi.
+    A full-stack developer with a passion for building web applications
+          using technologies like React, Node, and Asp.Net Core.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Web Development Skills
+
+- Javascript
+- Node.JS
+- C#
+- React
+- ASP.NET Core
+
+Cloud & Devops Skills
+
+- AWS
+- GCP
+- Docker
+- Kubernetes
