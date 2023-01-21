@@ -3,6 +3,7 @@ name: Fortan Pireva
 avatar: /static/images/profile-pic.png
 occupation: Self-Employed Software Engineer
 company: Slinggy Apps
+companyLink: https://www.slinggyapps.com/
 email: info@slinggyapps.com
 twitter: https://twitter.com/Twitter
 linkedin: https://www.linkedin.com
