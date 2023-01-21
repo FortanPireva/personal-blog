@@ -10,7 +10,7 @@ const siteMetadata = {
   siteRepo: 'https://github.com/FortanPireva/personal-blog',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/profile-pic.png',
-  socialBanner: '/static/images/twitter-card.png',
+  socialBanner: '/static/images/social-banner.png',
   email: 'fortanpireva@gmail.com',
   github: 'https://github.com/FortanPireva',
   twitter: 'https://twitter.com/fortanpireva',
