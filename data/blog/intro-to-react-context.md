@@ -1,12 +1,12 @@
 ---
-title: 'A Guide to React Context'
-date: '2023-01-13'
+title: 'An intro to React Context'
+date: '2023-01-25'
 tags: ['react', 'react_context']
 ---
 
-## So what’s react context ?
-
 ![React Context Example](/static/images/ReactContext.png)
+
+## So what’s react context ?
 
 As defined in React docs
 
@@ -14,7 +14,7 @@ As defined in React docs
 
 > Context provides a way to pass data through the component tree without having to pass props down manually at every level.
 
-The problem that arises when passing props acrossing components that are multiple levels deep in the inheritance hierarchy is the \***\*so-called **“\*prop-drilling”.\*\*\*
+The problem that arises when passing props acrossing components that are multiple levels deep in the inheritance hierarchy is the so-called **"prop-drilling”**.
 
 Say we have an interface for an object called _ICart_
 
@@ -91,7 +91,7 @@ After this step is completed we need to wrap the root CartEditor component with 
 </CustomCartContextProvider>
 ```
 
-So now insted of having to pass props in the inheritance hierarchy we can just use the special **\*\***\*\*\*\***\*\***\***\*\***\*\*\*\***\*\***useContext**\*\***\*\*\*\***\*\***\***\*\***\*\*\*\***\*\*** hook provided by the library and destructure the parts of the context we’re interested in.
+So now insted of having to pass props in the inheritance hierarchy we can just use the special _**useContext**_ hook provided by the react library and destructure the parts of the context we’re interested in.
 
 ```tsx
 // CartEditorAnnouncement.tsx
