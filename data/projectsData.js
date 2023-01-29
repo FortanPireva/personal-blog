@@ -1,6 +1,6 @@
 const projectsData = [
   {
-    title: 'A basic social media posting site',
+    title: 'Slanconnect',
     description: `A basic video and photo upload React + Firebase project leveraging Cloud Firestore and Cloud Storage 
     for data, photo and video storage`,
     imgSrc: '/static/images/projects/slanconnect.png',
@@ -18,6 +18,12 @@ const projectsData = [
       'A near-expiry food search database with notification feature implemented when new products are about to expire \n.Implemented in React.JS and Firebase',
     imgSrc: '/static/images/projects/foodpiry.png',
     href: 'https://foodsearch-927fe.web.app/',
+  },
+  {
+    title: 'Slinggy Cart Editor',
+    description:
+      'A visual shopping cart editor implemented as an embedded app in the shopify ecosystem',
+    imgSrc: '/static/images/projects/card-editor.png',
   },
 ]
 
