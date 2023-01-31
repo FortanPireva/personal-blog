@@ -5,9 +5,9 @@ occupation: Self-Employed Software Engineer
 company: Slinggy Apps
 companyLink: https://www.slinggyapps.com/
 email: info@slinggyapps.com
-twitter: https://twitter.com/Twitter
-linkedin: https://www.linkedin.com
-github: https://github.com
+twitter: https://twitter.com/fortanpireva
+linkedin: https://www.linkedin.com/ln/fortan-pireva/
+github: https://github.com/FortanPireva
 ---
 
 Hi I am Fortan Pireva, a passionate software engineer with a degree in computer engineering
