@@ -1,6 +1,6 @@
 ---
 title: 'Generative Adversarial Networks (GANs)'
-date: '2023-03-02'
+date: '2023-03-03'
 tags: ['machine_learning', 'ai']
 ---
 
@@ -29,10 +29,32 @@ Error is then calculated on the number of correct assignments the discriminator 
 ## Applications of GANs
 
 GANs have been used in a variety of applications, including image and video generation, data augmentation, and style transfer. One of the most impressive applications of GANs is in image generation, where the generator can create realistic images that are difficult to distinguish from real images. This has potential applications in the entertainment industry, such as creating realistic special effects in movies and video games. GANs can also be used for data augmentation in machine learning, where they can generate new data samples to increase the size of the training set. Another application of GANs is style transfer, where the style of one image can be transferred to another image. This can be used for artistic purposes, such as creating new versions of paintings in the style of famous artists. For the generator, the ultimate goal is to **maximize** the error, since this signals that it has successfully fooled discriminator into taking fake images for real. On the other hand, the discriminator goal is to **minimize the error,** indicating its’ success in telling true and fake examples apart.
+Examples of applications of GANs are the following:
+
+### Generating examples for image datasets
+
+Generating new plausible samples was the application described in the original paper by Ian Goodfellow, et al. in the 2014 paper [“Generative Adversarial Networks”](https://arxiv.org/pdf/1406.2661) where GANs were used to generate new plausible examples for the MNIST handwritten digit dataset, the CIFAR-10 small object photograph dataset, and the Toronto Face Database.
+
+![Untitled](/static/images/gans/gans-image-dataset.png)
+
+### Generate Photographs of Human Faces
+
+ero Karras, et al. in their 2017 paper titled ["Progressive Growing of GANs for Improved Quality, Stability, and Variation”](https://arxiv.org/abs/1710.10196) demonstrate the generation of plausible realistic photographs of human faces. They are so real looking, in fact, that it is fair to call the result remarkable. As such, the results received a lot of media attention. The face generations were trained on celebrity examples, meaning that there are elements of existing celebrities in the generated faces, making them seem familiar, but not quite.
+
+![Untitled](/static/images/gans/gans-image-2.png)
+
+### Generate Realistic Photographs
+
+Andrew Brock, et al. in their 2018 paper titled [“Large Scale GAN Training for High Fidelity Natural Image Synthesis”](https://arxiv.org/abs/1809.11096) demonstrate the generation of synthetic photographs with their technique BigGAN that are practically indistinguishable from real photographs.
+
+![Untitled](/static/images/gans/gans-image-3.png)
 
 ## Limitations of GANs
 
-While GANs have shown impressive results in generating realistic data, they also have some limitations. One of the major limitations is the difficulty in training them. GANs require a large amount of data and computational resources to train effectively. Additionally, GAN training can be unstable, with the generator and discriminator often falling into a stalemate. Another limitation of GANs is the lack of control over the generated data. While GANs can generate realistic data, they do not allow for fine-grained control over the generated samples.
+While GANs have shown impressive results in generating realistic data, they also have some limitations. One of the major limitations is the difficulty in training them. GANs require a large amount of data and computational resources to train effectively. Additionally, GAN training can be unstable, with the generator and discriminator often falling into a stalemate. Another limitation of GANs is the lack of control over the generated data. While GANs can generate realistic data, they do not allow for fine-grained control over the generated samples. Some reasons why GAN training might fail are:
+
+- **Mode Dropping** - is the phenomenon in forward KL (Kullback-Leibler) divergence caused by regions of data distributions not being covered by the generator distribution. This drives forward KL to infinity and punishes the generator for not including the entire data distribution.
+- **Poor Convergence** - caused in cases where the discriminator network learns too early to distringuish between real and fake examples - which will very likely happen during entire training time of the GAN.
 
 ## Future of GANs
 
