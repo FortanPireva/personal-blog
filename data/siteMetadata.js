@@ -6,7 +6,7 @@ const siteMetadata = {
     'A repository of tutorials/know-hows of different technologies I work with on my day to day job',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://fortanpireva.com',
+  siteUrl: 'https://f40.dev',
   siteRepo: 'https://github.com/FortanPireva/personal-blog',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/profile-pic.png',

@@ -1,6 +1,7 @@
 ---
 title: 'Machine Learning Basics'
 date: '2023-01-03'
+image: 'https://miro.medium.com/max/1400/0*fsmYfkJYo_n_Uhph'
 tags: ['machine_learning', 'ai']
 ---
 

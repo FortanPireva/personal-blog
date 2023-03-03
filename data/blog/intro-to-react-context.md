@@ -1,6 +1,7 @@
 ---
 title: 'An intro to React Context'
 date: '2023-01-25'
+image: '/static/images/ReactContext.png'
 tags: ['react', 'react_context']
 ---
 

@@ -31,20 +31,26 @@ export async function getStaticProps(context) {
     currentPage: pageNumber,
     totalPages: Math.ceil(posts.length / POSTS_PER_PAGE),
   }
-
+  const post = posts[pageNumber]
   return {
     props: {
       posts,
       initialDisplayPosts,
       pagination,
+      post,
     },
   }
 }
 
-export default function PostPage({ posts, initialDisplayPosts, pagination }) {
+export default function PostPage({ posts, initialDisplayPosts, pagination, post }) {
+  console.log('pisttt')
   return (
     <>
-      <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
+      <PageSEO
+        title={siteMetadata.title}
+        description={siteMetadata.description}
+        image={post.image}
+      />
       <ListLayout
         posts={posts}
         initialDisplayPosts={initialDisplayPosts}

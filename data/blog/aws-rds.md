@@ -1,6 +1,7 @@
 ---
 title: 'AWS Relational Database Service'
 date: '2022-05-03'
+image: 'https://cdn-images-1.medium.com/max/800/1*yd6DddXWGwUoOFQztzqU_A.png'
 tags: ['aws', 'code', 'rds']
 ---
 

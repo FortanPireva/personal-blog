@@ -25,6 +25,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
         url={`${siteMetadata.siteUrl}/blog/${slug}`}
         authorDetails={authorDetails}
         {...frontMatter}
+        images={frontMatter.image ? [frontMatter.image] : []}
       />
       <ScrollTopAndComment />
       <article>
