@@ -1,6 +1,7 @@
 ---
 title: 'Generative Adversarial Networks (GANs)'
 date: '2023-03-03'
+summary: 'Intro & short explanation of GANs'
 image: '/static/images/gans/gans.jpeg'
 tags: ['machine_learning', 'ai']
 ---
